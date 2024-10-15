@@ -2,7 +2,7 @@ import tkinter as tk
 from cProfile import label
 
 root = tk.Tk()
-root.title("Ejercicio 3")
+root.title("Ejercicio 4")
 root.geometry("300x200")
 
 
