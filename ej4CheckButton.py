@@ -1,11 +1,12 @@
 import tkinter as tk
-from cProfile import label
 
+# Inicializamos el TKinter
 root = tk.Tk()
 root.title("Ejercicio 4")
 root.geometry("300x200")
 
 
+# Configuración de las labels de estado
 def mostrar_estado():
     estadoL = "Seleccionado" if var_leer.get() else "No seleccionado"
     labelL.config(text="Leer: " + estadoL)
@@ -28,8 +29,6 @@ var_musica = tk.IntVar()
 musica = tk.Checkbutton(root, text="Música", variable=var_musica, command=mostrar_estado)
 musica.place(x=0, y=40)
 
-tk.Label().pack()
-
 # Etiquetas
 labelL = tk.Label(root, text="Leer: No seleccionado")
 labelL.place(x=100, y=2)
@@ -38,4 +37,5 @@ labelD.place(x=100, y=22)
 labelM = tk.Label(root, text="Música: No seleccionado")
 labelM.place(x=100, y=42)
 
+# Mainloop
 root.mainloop()
