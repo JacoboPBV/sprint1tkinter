@@ -33,21 +33,21 @@ canvas = tk.Canvas(root, width=300, height=200, bg="white")
 canvas.pack()
 
 # Entry 1
-labelX = tk.Label(root, text="X0, Y0:")
-labelX.pack()
+label0 = tk.Label(root, text="X0, Y0:")
+label0.pack()
 inicio = tk.Entry(root)
 inicio.pack()
 # Entry 2
-labelY = tk.Label(root, text="X1, Y1:")
-labelY.pack()
+label1 = tk.Label(root, text="X1, Y1:")
+label1.pack()
 final = tk.Entry(root)
 final.pack()
 
 # Botones para crear figuras
-boton = tk.Button(root, text="Crear círculo", command=crear_circulo)
-boton.pack()
-boton = tk.Button(root, text="Crear rectángulo", command=crear_rectangulo)
-boton.pack()
+boton1 = tk.Button(root, text="Crear círculo", command=crear_circulo)
+boton1.pack()
+boton2 = tk.Button(root, text="Crear rectángulo", command=crear_rectangulo)
+boton2.pack()
 
 # Mainloop
 root.mainloop()
