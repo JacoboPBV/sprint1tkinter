@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 # Inicializamos el TKinter
 root = tk.Tk()
-root.title("Ejercicio 9")
+root.title("Ejercicio 10")
 root.geometry("500x400")
 
 
