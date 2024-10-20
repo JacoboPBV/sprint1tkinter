@@ -13,7 +13,7 @@ def cambiar_texto():
 
 # Finaliza el programa destruyendo todo de raíz con el botón2
 def cerrar():
-    root.destroy()
+    root.quit()
 
 
 # Botones
